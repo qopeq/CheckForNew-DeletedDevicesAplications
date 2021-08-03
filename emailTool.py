@@ -10,7 +10,8 @@ def sendEmail(messgage, time):
         server.starttls()
         server.ehlo()
 
-        server.login("rycerzinternetow@gmail.com", "!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        #put here your email and password
+        server.login("email", "password")
     except:
         print("Fail with conntection!")
     msg1 = """From: Mua <rycerzinternetow@gmail.com>
